@@ -9,12 +9,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Fill these (or set env vars with the same names) ---
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PASTE_YOUR_TELEGRAM_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8757632045:AAHgPC4ZwbPnlL1XzP3MBH1bAzQ6C1vQfHc")
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
     "postgresql://USER:PASSWORD@HOST:5432/DATABASE",
 )
-OWNER_ID = int(os.getenv("OWNER_ID", "0"))  # your Telegram numeric user id
+OWNER_ID = int(os.getenv("7220599737", "0"))  # your Telegram numeric user id
 
 BOT_VERSION = os.getenv("BOT_VERSION", "1.0.0-telegram")
 POLL_TIMEOUT = int(os.getenv("POLL_TIMEOUT", "25"))
